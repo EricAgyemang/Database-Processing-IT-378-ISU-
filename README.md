@@ -375,10 +375,10 @@ Specialized Conversion Rules:
    - Deletion Anomaly–deleting rows may cause a loss of data that would be needed for other future rows
    - Modification Anomaly–changing data in a row forces changes to other rows because of duplication.
     
------------------------------------------------------------------------
- Note: 
-  • General rule of thumb: A table should not pertain to more than one entity type.
-
+     --------------------------------------------------------------
+     Note:
+          • General rule of thumb: A table should not pertain to more than one entity type.
+     --------------------------------------------------------------
 
 # Functional Dependencies and Keys.
  * Functional Dependency: The value of one attribute (the determinant) determines the value of another attribute
